@@ -102,10 +102,16 @@ For experiment, we collected data to evaluate the proposed searching methods ; f
 
 Grading examples
 ```
-# Genre: Vlogging
 {
-  "general_query": "daily vlogs of people's lives",
-
+  "query": "A step-by-step makeup tutorial for achieving a natural, everyday look using drugstore products",
+  "query_type": "detail_query",
+  "channel": "Tati",
+  "genre": "Beauty and Fashion",
+  "Relevance_Score": 2,
+  "Score_explanation: "The channel has a high relevance score because the majority of the video titles are directly related to the search prompt.
+                       The videos cover various aspects of makeup, including drugstore products, tutorials, product reviews, comparisons, and recommendations.
+                       This provides a comprehensive understanding of achieving a natural, everyday look using drugstore products."
+}
 ```
 
 ![Score Distribution for Searching methods](/material/experiment/score_dist.png)
