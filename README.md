@@ -53,24 +53,24 @@ youtube_subscription updatedb
   - Leverage state-of-the-art Language Learning Models (LLMs), embedding techniques, and vector storage methods to improve system functionality.
   
 - ⚖️ **Automated Judging Mechanism**
- - Introduce an LLM-based judge as an alternative to traditional human judgment processes. This method is designed to more accurately gauge relevance related to user intentions, leading to significant reductions in labor costs.
+  - Introduce an LLM-based judge as an alternative to traditional human judgment processes. This method is designed to more accurately gauge relevance related to user intentions, leading to significant reductions in labor costs.
   
 - 🔍 **Information Retrieval Enhancement**
   - Harness advanced IR techniques, including:
     - Specialized search algorithms tailored for rich content discovery.
     - Integration of LLMs to bolster the overall project development and refine user queries.
    
- - 🔍 **Tool Exploration and Integration**:
-  - **LLM Exploration**: Dived deep into various Large Language Models for content completion using platforms like:
-    - OpenAI, Cohere, Claude
-  - **Embedding Tools**: For text embeddings, relied on both commercial and open-source solutions:
-    - **Commercial Vendors**:
-      - OpenAI, Cohere, Google Vertex AI
-    - **Open-Source Solutions**:
-      - SBERT (all-MiniLM-L6-v2)
-  - **Integration**: Leveraged LangChain to seamlessly link and combine these tools, ensuring a smooth and integrated workflow.
+ - 🔧 **Tool Exploration and Integration**:
+   - **LLM Exploration**: Dived deep into various Large Language Models for content completion using platforms like:
+     - [OpenAI](https://openai.com/), [Cohere](https://cohere.com/), [Claude](https://claude.ai/)
+   - **Embedding Tools**: For text embeddings, relied on both commercial and open-source solutions:
+     - **Commercial Vendors**:
+       - [OpenAI](https://openai.com/), [Cohere](https://cohere.com/), [Google Vertex AI](https://cloud.google.com/vertex-ai?hl=en)
+     - **Open-Source Solutions**:
+       - [SBERT](https://www.sbert.net/) (all-MiniLM-L6-v2)
+   - **Integration**: Leveraged [LangChain](https://www.langchain.com/) to seamlessly link and combine these tools, ensuring a smooth and integrated workflow.
 
-- 🚀 **Future Development**:
+- 🌱 **Future Development**:
   - Serve as an intermediate step toward developing an intelligent agent that automatically prioritizes high-quality channels and videos to foster users' life-long learning.
   
 ---
