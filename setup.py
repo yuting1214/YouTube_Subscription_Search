@@ -23,4 +23,5 @@ setup(
         [console_scripts]
         youtube_subscription=main.main:cli
     """,
+    python_requires='>=3.8',
 )
