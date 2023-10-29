@@ -1,4 +1,5 @@
-# YouTube_Subscription_Search
+# YouTube_Subscription_Search [![](https://img.shields.io/github/license/yuting1214/YouTube_Subscription_Search)](https://github.com/yuting1214/YouTube_Subscription_Search/blob/main/LICENSE)
+
 
 A system enables semantic search within your personal YouTube subscriptions to efficiently find your desired channels.
 
@@ -16,7 +17,7 @@ pip install .
 
 ### API Key
 
-[See detailed instructions](https://github.com/yuting1214/YouTube_Subscription_Search/Google_API_key_setup.ipynb)
+[See detailed instructions](https://github.com/yuting1214/YouTube_Subscription_Search/blob/main/Google_API_key_setup.ipynb)
 ```
 Make sure to place the file youtube_credential.json under the folder of API_key/
 ```
@@ -65,9 +66,8 @@ youtube_subscription update_db
       - SBERT (all-MiniLM-L6-v2)
   - **Integration**: Leveraged LangChain to seamlessly link and combine these tools, ensuring a smooth and integrated workflow.
 
-
 - 🚀 **Future Development**:
-  - Serve as an intermediate step toward developing an intelligent agent that automatically prioritizes high-quality videos to foster users' life-long learning.
+  - Serve as an intermediate step toward developing an intelligent agent that automatically prioritizes high-quality channels and videos to foster users' life-long learning.
   
 ---
 
@@ -93,9 +93,16 @@ For experiment, we collected data to evaluate the proposed searching methods ; f
 | 256              | embed-english-light-v2.0 (Cohere)                                 | 1.222       | 3.067       |
 | 256              | embed-multilingual-v2.0 (Cohere)                                  | 1.156       | 3.200       |
 
-* Rubric for relevance score ([See more details](https://github.com/yuting1214/YouTube_Subscription_Search/blob/main/llm_chain/llm_judge.py))
+* Rubric for relevance score ([See more details](https://github.com/yuting1214/YouTube_Subscription_Search/blob/main/llm_prompt/llm_chain/llm_judge.py))
 * Avg_Rel @ k = Average relevance scores on top k retrieved channels.
 
+Grading examples
+```
+# Genre: Vlogging
+{
+  "general_query": "daily vlogs of people's lives",
+
+```
 
 ![Score Distribution for Searching methods](/material/experiment/score_dist.png)
 |:--:| 
