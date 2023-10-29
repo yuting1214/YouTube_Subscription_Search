@@ -1,0 +1,8 @@
+API_key/*
+models/*
+log/*
+.venv/
+build/
+*.egg-fino
+*.pyc
+*.ipynb_checkpoints
