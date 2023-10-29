@@ -79,7 +79,7 @@ youtube_subscription updatedb
 
 For experiment, we collected data to evaluate the proposed searching methods ; for application, we adpot the optimal solutions from the experiment and your personal subsribed data.
 
-[See more in]()
+[See more details.](https://app.heptabase.com/w/47c96d92a26951c8bd074c791fcc59dea53e7fac6b2dbac3a440cab6c389af44)
 
 ## Experiment results
 
