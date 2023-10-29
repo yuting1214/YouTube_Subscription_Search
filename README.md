@@ -7,11 +7,16 @@ A system enables semantic search within your personal YouTube subscriptions to e
 
 ## :arrow_down: Installation
 
+### Clone Repo:
+```
+git clone https://github.com/yuting1214/YouTube_Subscription_Search.git
+```
+
 Virtual Environment (Optional)
 
 ### Install Dependencies:
 ```
-pip install -U pip setuptools wheel
+pip setuptools wheel
 pip install .
 ```
 
@@ -23,7 +28,6 @@ Make sure to place the file youtube_credential.json under the folder of API_key/
 ```
 
 ## :rocket: Quickstart
-After clone, run
 
 1. Create your personal Database
 ```
@@ -37,7 +41,7 @@ youtube_subscription runapp
 
 3. Update Database when adding new subscription
 ```
-youtube_subscription update_db
+youtube_subscription updatedb
 ```
 
 ## 🎯 Purpose of the Project:
