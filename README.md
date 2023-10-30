@@ -71,13 +71,13 @@ youtube_subscription updatedb
    - **Integration**: Leveraged [LangChain](https://www.langchain.com/) to seamlessly link and combine these tools, ensuring a smooth and integrated workflow.
 
 - 🌱 **Future Development**:
-  - Serve as an intermediate step toward developing an intelligent agent that automatically prioritizes high-quality channels and videos to foster users' life-long learning.
+  - Word toward developing an intelligent agent that automatically prioritizes high-quality channels and videos to foster users' life-long learning.
   
 ---
 
 ## Experiment Workflow
 
-For experiment, we collected data to evaluate the proposed searching methods ; for application, we adpot the optimal solutions from the experiment and your personal subsribed data.
+Data was collected to assess the proposed search methods. Optimal solutions from these experiments are adopted for the application using personal subscription data.
 
 [See more details.](https://app.heptabase.com/w/47c96d92a26951c8bd074c791fcc59dea53e7fac6b2dbac3a440cab6c389af44)
 
@@ -156,14 +156,15 @@ Query examples
 |:--:| 
 | Average Genre Accuracy for different types of Queries |
 
-### Takeaways
+### Key Insights:
 
-1. Open-source embedding methods from [SBERT](https://www.sbert.net/) (all-mpnet-base-v2, all-MiniLM-L12-v2) outperforms the services provided by the commercial vendors in our experiment, therefore, we'll adopt all-MiniLM-L12-v2(more efficent) in our application.
-2. The relevance score by LLM judge aligns better with user's searching intention compared to considering only genre accuracy.
-3. Adopting the LLM judge to measure relevance could reduce manual labor, saving both time and budget.
+1. Open-source embedding methods from [SBERT](https://www.sbert.net/), especially **all-MiniLM-L12-v2**, outperform commercial vendors in our tests. As a result, we've integrated the efficient all-MiniLM-L12-v2 method into our application.
+2. The LLM judge not only provides a relevance score that aligns more closely with a user's search intent than simply using genre accuracy but also offers a means to minimize manual tasks, ultimately saving both time and resources.
+3. User queries categorized under "general_query" align closely with everyday user usage scenarios. Our proposed models perform exceptionally well for this type of query, suggesting that our experimental results can be seamlessly applied to daily usage.
 
-# Bug:
-The LLM sometimes still would return something as non-intended format, like non-JSON format 
+## Known Issues and Future Resolutions
+
+1. The LLM sometimes still would return something as non-intended format, like non-JSON format 
 
 
 ## Acknowledgements
